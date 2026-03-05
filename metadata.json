@@ -1,0 +1,7 @@
+{
+  "name": "Vignan University Ride Link",
+  "description": "A campus-specific ride-hailing application for Vignan University, connecting students, faculty, and parents with campus drivers for internal transit.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
