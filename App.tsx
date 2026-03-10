@@ -114,7 +114,7 @@ const App: React.FC = () => {
             onClick={() => setIsAdminMode(true)}
             className="text-xs font-bold text-gray-400 hover:text-indigo-600 transition-colors"
           >
-            Admin Panel
+          Admin panel
           </button>
         </div>
       </div>

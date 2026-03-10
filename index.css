@@ -15,4 +15,66 @@
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+} 
+
+/* Floating Developer Button */
+
+.dev-button{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#111827;
+  color:white;
+  border:none;
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  font-size:20px;
+  cursor:pointer;
+  box-shadow:0 5px 20px rgba(0,0,0,0.3);
+  z-index:999;
+}
+
+/* Popup */
+
+.dev-popup{
+  position:fixed;
+  bottom:75px;
+  right:20px;
+  background:#0f172a;
+  padding:15px 20px;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+  animation:slideUp 0.3s ease;
+}
+
+.dev-popup h4{
+  color:white;
+  margin-bottom:8px;
+  font-size:14px;
+}
+
+.dev-popup p{
+  margin:2px 0;
+  font-weight:600;
+  font-size:13px;
+}
+
+.dev1{color:#ef4444;}
+.dev2{color:#3b82f6;}
+.dev3{color:#10b981;}
+.dev4{color:#f59e0b;}
+.dev5{color:#8b5cf6;}
+.dev6{color:#ec4899;}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+  .dev-popup{
+    right:10px;
+    bottom:70px;
+    width:220px;
+  }
+
 }
